@@ -50,6 +50,18 @@ Monthly mean data from 1981 - 2020, limited by the ERA5 Land and SMI data availa
     - MODIS landcover data, available via [cds](https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-land-cover?tab=overview)
 
 
+---
+## Data Preprocessing
+
+Note: work in progress as of Dec 2021
+
+
+### label derivation
+
+Thresholding illustration of the UFZ Soil moisture data from continuous SMI values to a binary drought signal
+
+<p align="left"><img src="docs/binarization.PNG" width="600" title="Coarsening of the dataset for the ab;ation study"></p>
+
 
 
 ---
@@ -76,7 +88,11 @@ Commands:
 ```
 
 
-## Examples
+--- 
+
+## Examples 
+
+Note: work in progress as of Dec 2021
 
 ### Download ERA5 Land variables. 
 Timerange:  from 1981 to 2020. <br>
@@ -89,7 +105,7 @@ drought preprocess era5
 --end-year 2020 
 ```
 
-*---insert dataset example image ---* 
+
 
 
 ### Train a single sklearn model. 
