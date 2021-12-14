@@ -1,0 +1,16 @@
+models/
+notebooks/archive/
+notebooks/generate_labels/*
+DATA/*
+viz/*
+env/
+__pycache__/
+.vscode/*
+env/
+*/scalars/*
+*/.ipynb_checkpoints/*
+*/logs/*
+logs/scalars/*
+
+src/drought_prediction.egg-info/
+scripts/slurm_scripts/slurm_jobs/
