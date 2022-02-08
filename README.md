@@ -8,10 +8,11 @@ This repository contains the source code for the following paper. If you find th
 
 
 ```bibtex
-@article{gottfriedsen2021generalization,
+@inproceedings{gottfriedsen2021on,
   title={On the Generalization of Agricultural Drought Classification from Climate Data},
-  author={Gottfriedsen, Julia and Berrendorf, Max and Gentine, Pierre and Reichstein, Markus and Weigel, Katja and Hassler, Birgit and Eyring, Veronika},
-  journal={arXiv preprint arXiv:2111.15452},
+  author={Gottfriedsen, Julia and Berrendorf, Max and Gentine, Pierre and Reichstein, Markus and Weigel , Katja and Hassler, Birgit and Eyring, Veronika},
+  booktitle={NeurIPS 2021 Workshop on Tackling Climate Change with Machine Learning},
+  url={https://www.climatechange.ai/papers/neurips2021/14},
   year={2021}
 }
 ```
